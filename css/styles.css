@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+    background: url('../images/hero.jpg') no-repeat center center / cover;
+    color: white;
+    padding: 20px 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+footer {
+    background-color: #111;
+    color: #ccc;
+}
+
+.carousel-item p {
+    font-style: italic;
+    font-size: 1.1rem;
+}
